@@ -1,0 +1,83 @@
+/* Reset + base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0f172a; /* dark blue */
+  color: #e5e7eb;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App container */
+.app {
+  background: #020617;
+  padding: 2rem;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Timer */
+.timer-section {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#timer {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+/* Input */
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.input-section input {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.controls button {
+  flex: 1;
+  margin: 0 0.25rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Status */
+.status-section {
+  text-align: center;
+  min-height: 1.2em;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
